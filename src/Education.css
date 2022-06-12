@@ -1,0 +1,46 @@
+.education {
+    background-color: honeydew;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.education > h1 {
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.university {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 25px; 
+}
+
+.university > h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.university > h5 {
+    color: grey;
+    font-size: 12px;
+    font-weight: 450;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.university > h6 {
+    color: grey;
+    font-size: 10px;
+    font-weight: 450;
+    padding-bottom: 5px;
+}

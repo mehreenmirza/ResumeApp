@@ -1,0 +1,20 @@
+.projects {
+    background-color:honeydew;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects > h1 {
+    padding-bottom: 10px;
+    font-weight: 600;    
+    font-size: 20px;
+}
+
+.projects__cards1 {
+    display: flex;
+}

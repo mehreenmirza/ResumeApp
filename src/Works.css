@@ -1,0 +1,42 @@
+.works{
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.20);
+    transition: transform 100ms ease-in; /* slows hover transition speed so it's smooth */
+    cursor: pointer;
+    background-color: honeydew;
+}
+
+/* cards animate when hovered */
+.works:hover{
+    transform: scale(1.04); 
+}
+
+.works > img {
+    object-fit: fill;
+    min-width: 305px;
+    min-height: 200px;
+    width: 100%;
+}
+
+
+.works__info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
+
+.works__info > h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.works__info > h3 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
